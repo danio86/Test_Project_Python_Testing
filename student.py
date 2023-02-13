@@ -14,3 +14,8 @@ class Student:
     @property
     def full_name(self):
         return f"{self._first_name} {self._last_name}"
+
+
+if __name__ == "__main__":
+    print(full_name(Paul, Müller))
+
